@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,21 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Katlego Ngwenya | Portfolio</title>
+    <title>Katlego Ngwenya | Data Analyst & BCom Accounting Graduate</title>
+    <meta name="description" content="Portfolio of Katlego Maureen Ngwenya, a BCom Accounting graduate and aspiring Data Analyst skilled in Python, SQL, Excel and financial reporting. Based in Gauteng, South Africa.">
+    <meta name="author" content="Katlego Maureen Ngwenya">
+    <meta name="theme-color" content="#0b1020">
 
+    <!-- Social sharing preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Katlego Ngwenya | Data Analyst & BCom Accounting Graduate">
+    <meta property="og:description" content="Python, SQL, Excel and financial reporting. Explore my projects, education and CV.">
+    <meta name="twitter:card" content="summary">
+
+    <!-- Favicon (inline, no extra file needed) -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b1020'/%3E%3Ctext x='50' y='68' font-size='60' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%2338bdf8'%3EK%3C/text%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <a href="#main" class="skip-link">Skip to content</a>
+
     <!-- Navigation Bar -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar" aria-label="Main navigation">
 
-        <div class="logo">
-            Katlego<span>.</span>
-        </div>
+        <a href="#home" class="logo">Katlego<span>.</span></a>
 
-        <div class="nav-links">
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+            <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-links" id="navLinks">
             <a href="#home">Home</a>
             <a href="#about">About Me</a>
             <a href="#skills">Skills</a>
@@ -32,251 +50,456 @@
     </nav>
 
 
-    <!-- Hero Section -->
-    <header id="home" class="hero">
+    <main id="main">
 
-        <div class="hero-content">
+        <!-- Hero Section -->
+        <header id="home" class="hero">
 
-            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <div class="hero-content reveal">
 
-            <h1>Hello, I'm <span>Katlego Ngwenya</span></h1>
+                <p class="welcome"><span class="status-dot"></span> AVAILABLE IMMEDIATELY &middot; GAUTENG, SA</p>
 
-            <h2>Data Analyst | Python Developer | Web Developer</h2>
+                <h1>Hello, I'm <span>Katlego Ngwenya</span></h1>
 
-            <p class="hero-description">
-                Passionate about technology, programming and data.
-                I enjoy creating digital solutions, analysing information
-                and continuously developing my technical skills.
-            </p>
+                <h2>
+                    <span class="typed-prefix"></span><span id="typed" aria-live="polite">Data Analyst</span><span class="cursor">|</span>
+                </h2>
 
-            <div class="hero-buttons">
-                <a href="#projects" class="primary-btn">Explore My Work</a>
-                <a href="#contact" class="secondary-btn">Get In Touch</a>
-            </div>
-
-        </div>
-
-        <div class="hero-decoration">
-            <div class="circle">
-                <span>&lt;/&gt;</span>
-            </div>
-        </div>
-
-    </header>
-
-
-    <!-- About Me -->
-    <section id="about" class="section about">
-
-        <div class="section-heading">
-            <p>GET TO KNOW ME</p>
-            <h2>About Me</h2>
-        </div>
-
-        <div class="about-content">
-
-            <div class="about-text">
-                <h3>Turning ideas into digital solutions.</h3>
-
-                <p>
-                    I'm Katlego Ngwenya, an aspiring Data Analyst and
-                    Developer with an interest in technology and
-                    problem-solving.
+                <p class="hero-description">
+                    BCom Accounting graduate and aspiring Data Analyst with hands-on
+                    experience in Python, SQL, statistical analysis and financial
+                    reporting. I turn data into clear, actionable insights.
                 </p>
 
-                <p>
-                    My coding journey started through the FNB App Academy,
-                    where I began developing practical skills in Python,
-                    HTML and CSS.
-                </p>
-
-                <p>
-                    I enjoy learning new technologies, working on projects
-                    and finding creative ways to solve problems using data
-                    and programming.
-                </p>
-            </div>
-
-            <div class="about-highlight">
-                <h3>My Focus</h3>
-                <p>Data Analysis</p>
-                <p>Python Development</p>
-                <p>Web Development</p>
-                <p>Continuous Learning</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Skills -->
-    <section id="skills" class="section skills">
-
-        <div class="section-heading">
-            <p>WHAT I CAN DO</p>
-            <h2>My Technical Skills</h2>
-        </div>
-
-        <div class="skills-container">
-
-            <div class="skill-card">
-                <h3>Python</h3>
-                <p>Programming, problem-solving and application development.</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>HTML</h3>
-                <p>Creating structured and accessible web pages.</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>CSS</h3>
-                <p>Designing responsive and visually appealing websites.</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Data Analysis</h3>
-                <p>Working with data to discover patterns and insights.</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>SQL</h3>
-                <p>Working with databases and retrieving information.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Education -->
-    <section id="education" class="section education">
-
-        <div class="section-heading">
-            <p>MY LEARNING JOURNEY</p>
-            <h2>Education & Development</h2>
-        </div>
-
-        <div class="education-card">
-
-            <div class="education-icon">01</div>
-
-            <div>
-                <h3>FNB App Academy</h3>
-
-                <p>
-                    Developing practical skills in programming,
-                    application development and web technologies.
-                </p>
-
-                <span>Python | HTML | CSS | Software Development</span>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects -->
-    <section id="projects" class="section projects">
-
-        <div class="section-heading">
-            <p>MY RECENT WORK</p>
-            <h2>Featured Projects</h2>
-            <span>Some of the projects I have worked on.</span>
-        </div>
-
-        <div class="project-list">
-
-            <div class="project-card">
-
-                <div class="project-number">PROJECT 01</div>
-
-                <h3>Portfolio Website</h3>
-
-                <p>
-                    A personal portfolio website designed to showcase
-                    my technical skills, projects and development journey.
-                </p>
-
-                <div class="project-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
+                <div class="hero-buttons">
+                    <a href="Katlego_Maureen_Ngwenya_CV.pdf" class="primary-btn" download>Download CV</a>
+                    <a href="#projects" class="secondary-btn">Explore My Work</a>
+                    <a href="#contact" class="secondary-btn">Get In Touch</a>
                 </div>
 
-                <a href="https://app-academy-portfolio-website.netlify.app/"
-                   target="_blank" rel="noopener noreferrer">
-                    View Project →
-                </a>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <div class="project-number">PROJECT 02</div>
-
-                <h3>Weather Application</h3>
-
-                <p>
-                    A weather application built with Python that retrieves
-                    weather information and displays current conditions.
-                </p>
-
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>Flet</span>
-                    <span>API</span>
+                <div class="hero-socials" aria-label="Social links">
+                    <a href="https://github.com/Maureen-Ngwenya-19" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/katlego-maureen-ngwenya-2ba19a356" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+                    </a>
+                    <a href="https://instagram.com/journal_of_km" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85C2.38 3.92 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16ZM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.69.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0Zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88Z"/></svg>
+                    </a>
                 </div>
 
-                <a href="https://app-academy-portfolio-website.netlify.app/"
-                   target="_blank" rel="noopener noreferrer">
-                    View Project →
-                </a>
-
             </div>
 
+            <div class="hero-decoration reveal">
+                <div class="circle">
+                    <span>&lt;/&gt;</span>
+                </div>
+                <div class="float-chip chip-1">Python</div>
+                <div class="float-chip chip-2">SQL</div>
+                <div class="float-chip chip-3">Excel</div>
+                <div class="float-chip chip-4">AWS</div>
+            </div>
 
-            <div class="project-card">
+        </header>
 
-                <div class="project-number">PROJECT 03</div>
 
-                <h3>Python Projects</h3>
+        <!-- Quick facts -->
+        <section class="stats-strip" aria-label="Highlights">
+            <div class="stat reveal"><strong>BCom</strong><span>Accounting, Eduvos 2026</span></div>
+            <div class="stat reveal"><strong>5</strong><span>Data, finance &amp; cloud projects</span></div>
+            <div class="stat reveal"><strong>100%</strong><span>AWS Cloud Foundations practical</span></div>
+            <div class="stat reveal"><strong>24 hrs</strong><span>Community service</span></div>
+        </section>
 
-                <p>
-                    Practical Python programming projects demonstrating
-                    logical thinking, coding and problem-solving skills.
-                </p>
 
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>Programming</span>
+        <!-- About Me -->
+        <section id="about" class="section about">
+
+            <div class="section-heading reveal">
+                <p>GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text reveal">
+                    <h3>Turning data into actionable insights.</h3>
+
+                    <p>
+                        I'm Katlego Ngwenya, a BCom Accounting graduate from Eduvos
+                        and an aspiring Data Analyst. Through my studies and projects
+                        I've gained practical experience in Python, SQL, data cleaning,
+                        statistical analysis, financial reporting and data visualisation.
+                    </p>
+
+                    <p>
+                        My degree is complemented by a Higher Certificate in Data
+                        Analytics and my training at the FNB App Academy, giving me
+                        a blend of financial knowledge and technical skill. I'm
+                        proficient in Pandas, NumPy, SQL Server, Microsoft Excel and
+                        Sage Pastel, with foundational knowledge of financial risk
+                        and compliance.
+                    </p>
+
+                    <p>
+                        I'm available immediately and open to permanent positions,
+                        internships and vacation work across Pretoria and Johannesburg,
+                        including remote and hybrid roles.
+                    </p>
                 </div>
 
-                <a href="https://github.com/Maureen-Ngwenya-19"
-                   target="_blank" rel="noopener noreferrer">
-                    View GitHub →
-                </a>
+                <div class="about-highlight reveal">
+                    <h3>Roles I'm Looking For</h3>
+                    <ul>
+                        <li>Junior Data Analyst</li>
+                        <li>Reporting Analyst</li>
+                        <li>Financial Data Analyst</li>
+                        <li>Graduate Analyst</li>
+                    </ul>
+                </div>
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section skills">
+
+            <div class="section-heading reveal">
+                <p>WHAT I CAN DO</p>
+                <h2>My Technical Skills</h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">DA</div>
+                    <h3>Data Analytics &amp; Reporting</h3>
+                    <p>Finding patterns in data and communicating them clearly.</p>
+                    <div class="chip-list">
+                        <span>Data Cleaning</span>
+                        <span>Statistical Analysis</span>
+                        <span>Data Visualisation</span>
+                        <span>Financial Data Analysis</span>
+                        <span>Management Reporting</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">Py</div>
+                    <h3>Programming &amp; Tools</h3>
+                    <p>Building analysis workflows and database-driven applications.</p>
+                    <div class="chip-list">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                        <span>SQL Server &amp; T-SQL</span>
+                        <span>Microsoft Excel</span>
+                        <span>Jupyter Notebook</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">Fin</div>
+                    <h3>Finance, Risk &amp; Compliance</h3>
+                    <p>An accounting foundation that gives my analysis business context.</p>
+                    <div class="chip-list">
+                        <span>Financial Accounting</span>
+                        <span>Reconciliation</span>
+                        <span>Risk Assessment</span>
+                        <span>Internal Controls</span>
+                        <span>Regulatory Compliance</span>
+                        <span>Sage Pastel</span>
+                        <span>Xero</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">&lt;&gt;</div>
+                    <h3>Web &amp; Cloud</h3>
+                    <p>Publishing and monitoring simple applications online.</p>
+                    <div class="chip-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>AWS EC2</span>
+                        <span>Amazon S3</span>
+                        <span>CloudWatch</span>
+                        <span>SNS</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">&#10003;</div>
+                    <h3>Professional Skills</h3>
+                    <p>Working well with people as well as data.</p>
+                    <div class="chip-list">
+                        <span>Analytical Thinking</span>
+                        <span>Problem-Solving</span>
+                        <span>Attention to Detail</span>
+                        <span>Stakeholder Communication</span>
+                        <span>Team Collaboration</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Education -->
+        <section id="education" class="section education">
+
+            <div class="section-heading reveal">
+                <p>MY LEARNING JOURNEY</p>
+                <h2>Education &amp; Development</h2>
+            </div>
+
+            <div class="education-stack">
+
+                <div class="education-card reveal">
+                    <div class="education-icon">01</div>
+                    <div>
+                        <p class="edu-year">Eduvos &middot; 2026</p>
+                        <h3>Bachelor of Commerce (BCom) in Accounting</h3>
+                        <p>
+                            Financial Accounting, Financial Management, Management
+                            Accounting, Auditing, Taxation, Quantitative Techniques,
+                            Corporate Governance, Corporate Law and Business Management.
+                        </p>
+                        <span>Accounting | Auditing | Taxation</span>
+                    </div>
+                </div>
+
+                <div class="education-card reveal">
+                    <div class="education-icon">02</div>
+                    <div>
+                        <p class="edu-year">Eduvos &middot; 2026</p>
+                        <h3>Higher Certificate in Data Analytics</h3>
+                        <p>
+                            Studies in Information Systems with a focus on data
+                            analytics. Recognised as an Academic Top Achiever.
+                        </p>
+                        <span>Python | SQL | Data Analysis</span>
+                    </div>
+                </div>
+
+                <div class="education-card reveal">
+                    <div class="education-icon">03</div>
+                    <div>
+                        <p class="edu-year">FNB &middot; 2026</p>
+                        <h3>FNB App Academy / UJ Future Digital Skills Programme</h3>
+                        <p>
+                            Developing practical skills in programming,
+                            application development and web technologies.
+                        </p>
+                        <span>Python | HTML | CSS | Software Development</span>
+                    </div>
+                </div>
+
+                <div class="education-card reveal">
+                    <div class="education-icon">04</div>
+                    <div>
+                        <h3>Additional Certifications</h3>
+                        <ul class="cert-list">
+                            <li><strong>Sage 50c Pastel Intermediate</strong> &mdash; Eduvos</li>
+                            <li><strong>Corporate Income Tax Infinite Kicks</strong> &mdash; Moore, Eduvos and CPD Campus, 2025</li>
+                            <li><strong>Managing Finances and Risk</strong> &mdash; Eduvos, 2024</li>
+                            <li><strong>National Senior Certificate (Grade 12)</strong> &mdash; Christian Progressive College, 2017</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="section projects">
+
+            <div class="section-heading reveal">
+                <p>MY RECENT WORK</p>
+                <h2>Featured Projects</h2>
+                <span>Practical projects across data analytics, databases, finance and cloud.</span>
+            </div>
+
+            <div class="project-list">
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 01</div>
+                    <h3>Siyahamba Taxi Association &amp; Service Delivery Analysis</h3>
+                    <div class="project-type">Data Analytics &amp; Visualisation</div>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                    </div>
+                    <ul class="project-outcomes">
+                        <li>Analysed six months of transport data across five Gauteng taxi ranks to identify revenue and operational trends.</li>
+                        <li>Cleaned and merged CSV and Excel datasets and applied statistical analysis to service delivery data.</li>
+                        <li>Built six transport visualisations plus additional charts to support decision-making.</li>
+                    </ul>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 02</div>
+                    <h3>Kasi Fresh Grocers &amp; Learner Progress Tracking System</h3>
+                    <div class="project-type">SQL Database Development &amp; Python Applications</div>
+                    <div class="project-tags">
+                        <span>SQL Server</span>
+                        <span>T-SQL</span>
+                        <span>Python</span>
+                        <span>OOP</span>
+                    </div>
+                    <ul class="project-outcomes">
+                        <li>Developed a six-table relational database supporting sales, inventory and customer loyalty across eight township locations.</li>
+                        <li>Created queries, reporting views, stored procedures and audit triggers to improve data integrity.</li>
+                        <li>Built Python applications with automated calculations, data validation and error handling.</li>
+                    </ul>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 03</div>
+                    <h3>Shoprite Holdings VAT Reconciliation &amp; Sage Pastel</h3>
+                    <div class="project-type">Financial Data Analysis &amp; Reporting</div>
+                    <div class="project-tags">
+                        <span>Excel</span>
+                        <span>Sage 50c Pastel</span>
+                        <span>Xero</span>
+                    </div>
+                    <ul class="project-outcomes">
+                        <li>Analysed Shoprite Holdings' 2023 financial statements, covering cash movements, ratios, taxation and reporting performance.</li>
+                        <li>Prepared trial balances and accounting reports to support transaction processing and reconciliation.</li>
+                        <li>Completed a simulated VAT201 return in Xero following SARS guidelines, reviewing six supplier invoices.</li>
+                    </ul>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 04</div>
+                    <h3>Telkom SA Audit Assessment &amp; Corporate Income Tax Simulation</h3>
+                    <div class="project-type">Risk Analysis, Auditing &amp; Financial Compliance</div>
+                    <div class="project-tags">
+                        <span>Risk Assessment</span>
+                        <span>Internal Controls</span>
+                        <span>Audit Reporting</span>
+                    </div>
+                    <ul class="project-outcomes">
+                        <li>Assessed four financial and operational business cycles, mapping process flowcharts and internal control weaknesses.</li>
+                        <li>Identified a rise in reported non-audit fees from R681,000 to R2,965,493, highlighting auditor independence risks.</li>
+                        <li>Completed a 25-question corporate income tax simulation in 180 minutes using SARS guidelines.</li>
+                    </ul>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 05</div>
+                    <h3>TechFleet Logistics AWS Proof of Concept</h3>
+                    <div class="project-type">Cloud Computing &amp; Systems Development</div>
+                    <div class="project-tags">
+                        <span>AWS EC2</span>
+                        <span>Amazon S3</span>
+                        <span>CloudWatch</span>
+                        <span>SNS</span>
+                        <span>SSH</span>
+                    </div>
+                    <ul class="project-outcomes">
+                        <li>Achieved 100% in an AWS Cloud Foundations practical assessment covering deployment, configuration and monitoring.</li>
+                        <li>Provisioned an EC2 instance, configured secure SSH access and hosted a static webpage on Amazon S3.</li>
+                        <li>Set up CloudWatch monitoring with SNS email alerts and tested them during a simulated failure.</li>
+                    </ul>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 06</div>
+                    <h3>Web &amp; Python Builds</h3>
+                    <div class="project-type">Web Development &amp; Python</div>
+                    <p>
+                        This portfolio website, plus a Python weather application
+                        built with Flet that retrieves and displays current conditions
+                        from an API.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Python</span>
+                        <span>Flet</span>
+                        <span>API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://app-academy-portfolio-website.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            View Portfolio Site <span aria-hidden="true">→</span>
+                        </a>
+                        <a href="https://github.com/Maureen-Ngwenya-19" target="_blank" rel="noopener noreferrer">
+                            View GitHub <span aria-hidden="true">→</span>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Achievements & Community -->
+        <section id="achievements" class="section achievements">
+
+            <div class="section-heading reveal">
+                <p>BEYOND THE CLASSROOM</p>
+                <h2>Achievements &amp; Community</h2>
+            </div>
+
+            <div class="recognition-grid">
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">&#9733;</div>
+                    <h3>Academic Recognition</h3>
+                    <ul class="cert-list">
+                        <li><strong>Academic Top Achiever</strong>, Higher Certificate in Information Systems: Data Analytics &mdash; Eduvos, 2026</li>
+                        <li><strong>Mathematics Olympiad, 1st Place</strong> &mdash; Eduvos, 2026</li>
+                        <li><strong>Golden Key International Honour Society</strong>, Academic Honour Society Member &mdash; Eduvos, 2026</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">&hearts;</div>
+                    <h3>Community Service Volunteer</h3>
+                    <p class="muted-label">University of Pretoria, Mamelodi Business Clinic</p>
+                    <ul class="cert-list">
+                        <li>Completed 24 hours of community service supporting Early Childhood Development initiatives in Mamelodi-East.</li>
+                        <li>Conducted needs assessments with ECD centre staff to identify educational, operational and resource requirements.</li>
+                        <li>Helped coordinate fundraising to buy and deliver educational materials, books, toys and groceries, earning a formal Service Certificate.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
 
 
     <!-- Contact -->
     <footer id="contact">
 
-        <div class="footer-content">
+        <div class="footer-content reveal">
 
             <h2>Let's Connect!</h2>
 
             <p>
-                Thank you for visiting my portfolio.
-                Feel free to connect with me through my social platforms.
+                I'm available immediately and actively looking for Junior Data Analyst,
+                Reporting Analyst, Financial Data Analyst and Graduate Analyst
+                opportunities. Let's talk.
             </p>
+
+            <div class="footer-actions">
+                <a href="mailto:maureenngwenya19@gmail.com" class="primary-btn">Email Me</a>
+                <a href="Katlego_Maureen_Ngwenya_CV.pdf" class="secondary-btn" download>Download CV</a>
+            </div>
 
             <div class="social-links">
 
@@ -305,5 +528,8 @@
 
     </footer>
 
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
