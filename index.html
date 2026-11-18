@@ -1,10 +1,13 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katlego Ngwenya - Portfolio</title>
+
+    <title>Katlego Ngwenya | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,88 +15,294 @@
 
     <!-- Navigation Bar -->
     <nav class="navbar">
+
         <div class="logo">
-            Katlego Ngwenya
+            Katlego<span>.</span>
         </div>
 
         <div class="nav-links">
             <a href="#home">Home</a>
             <a href="#about">About Me</a>
-            <a href="#skills">My Skills</a>
+            <a href="#skills">Skills</a>
             <a href="#education">Education</a>
             <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#contact" class="contact-btn">Contact Me</a>
         </div>
+
     </nav>
 
-    <!-- Welcome Section -->
-    <header id="home">
-        <h1>Welcome to my portfolio</h1>
-        <p>Data Analyst | Python Developer | Web Developer</p>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Katlego Ngwenya</span></h1>
+
+            <h2>Data Analyst | Python Developer | Web Developer</h2>
+
+            <p class="hero-description">
+                Passionate about technology, programming and data.
+                I enjoy creating digital solutions, analysing information
+                and continuously developing my technical skills.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-btn">Explore My Work</a>
+                <a href="#contact" class="secondary-btn">Get In Touch</a>
+            </div>
+
+        </div>
+
+        <div class="hero-decoration">
+            <div class="circle">
+                <span>&lt;/&gt;</span>
+            </div>
+        </div>
+
     </header>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <h2>About Me</h2>
-        <p>I'm a data analyst. I started coding in the FNB App Academy.</p>
+
+    <!-- About Me -->
+    <section id="about" class="section about">
+
+        <div class="section-heading">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-text">
+                <h3>Turning ideas into digital solutions.</h3>
+
+                <p>
+                    I'm Katlego Ngwenya, an aspiring Data Analyst and
+                    Developer with an interest in technology and
+                    problem-solving.
+                </p>
+
+                <p>
+                    My coding journey started through the FNB App Academy,
+                    where I began developing practical skills in Python,
+                    HTML and CSS.
+                </p>
+
+                <p>
+                    I enjoy learning new technologies, working on projects
+                    and finding creative ways to solve problems using data
+                    and programming.
+                </p>
+            </div>
+
+            <div class="about-highlight">
+                <h3>My Focus</h3>
+                <p>Data Analysis</p>
+                <p>Python Development</p>
+                <p>Web Development</p>
+                <p>Continuous Learning</p>
+            </div>
+
+        </div>
+
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>My Skills</h2>
-        <p>Python, HTML, CSS, Data Analysis and SQL.</p>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+
+        <div class="section-heading">
+            <p>WHAT I CAN DO</p>
+            <h2>My Technical Skills</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Programming, problem-solving and application development.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Creating structured and accessible web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Designing responsive and visually appealing websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Data Analysis</h3>
+                <p>Working with data to discover patterns and insights.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>SQL</h3>
+                <p>Working with databases and retrieving information.</p>
+            </div>
+
+        </div>
+
     </section>
 
-    <!-- Education Section -->
-    <section id="education">
-        <h2>Education</h2>
-        <p>Currently developing my skills through the FNB App Academy.</p>
+
+    <!-- Education -->
+    <section id="education" class="section education">
+
+        <div class="section-heading">
+            <p>MY LEARNING JOURNEY</p>
+            <h2>Education & Development</h2>
+        </div>
+
+        <div class="education-card">
+
+            <div class="education-icon">01</div>
+
+            <div>
+                <h3>FNB App Academy</h3>
+
+                <p>
+                    Developing practical skills in programming,
+                    application development and web technologies.
+                </p>
+
+                <span>Python | HTML | CSS | Software Development</span>
+            </div>
+
+        </div>
+
     </section>
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <h2>My Projects</h2>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+
+        <div class="section-heading">
+            <p>MY RECENT WORK</p>
+            <h2>Featured Projects</h2>
+            <span>Some of the projects I have worked on.</span>
+        </div>
 
         <div class="project-list">
 
             <div class="project-card">
+
+                <div class="project-number">PROJECT 01</div>
+
                 <h3>Portfolio Website</h3>
-                <p>A personal website to showcase my projects, skills and background.</p>
+
+                <p>
+                    A personal portfolio website designed to showcase
+                    my technical skills, projects and development journey.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+
                 <a href="https://app-academy-portfolio-website.netlify.app/"
-                   target="_blank" rel="noopener noreferrer">View Project</a>
+                   target="_blank" rel="noopener noreferrer">
+                    View Project →
+                </a>
+
             </div>
 
-            <div class="project-card">
-                <h3>Weather App</h3>
-                <p>A weather application displaying current weather information.</p>
-                <a href="https://app-academy-portfolio-website.netlify.app/"
-                   target="_blank" rel="noopener noreferrer">View Project</a>
-            </div>
 
             <div class="project-card">
-                <h3>Python Project</h3>
-                <p>A Python project demonstrating programming skills.</p>
+
+                <div class="project-number">PROJECT 02</div>
+
+                <h3>Weather Application</h3>
+
+                <p>
+                    A weather application built with Python that retrieves
+                    weather information and displays current conditions.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Flet</span>
+                    <span>API</span>
+                </div>
+
                 <a href="https://app-academy-portfolio-website.netlify.app/"
-                   target="_blank" rel="noopener noreferrer">View Project</a>
+                   target="_blank" rel="noopener noreferrer">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">PROJECT 03</div>
+
+                <h3>Python Projects</h3>
+
+                <p>
+                    Practical Python programming projects demonstrating
+                    logical thinking, coding and problem-solving skills.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Programming</span>
+                </div>
+
+                <a href="https://github.com/Maureen-Ngwenya-19"
+                   target="_blank" rel="noopener noreferrer">
+                    View GitHub →
+                </a>
+
             </div>
 
         </div>
+
     </section>
 
-    <!-- Footer -->
+
+    <!-- Contact -->
     <footer id="contact">
-        <p>© Katlego Ngwenya</p>
 
-        <div class="social-links">
-            <a href="https://instagram.com/journal_of_km"
-               target="_blank" rel="noopener noreferrer">Instagram</a>
+        <div class="footer-content">
 
-            <a href="https://github.com/Maureen-Ngwenya-19"
-               target="_blank" rel="noopener noreferrer">GitHub</a>
+            <h2>Let's Connect!</h2>
 
-            <a href="https://linkedin.com/in/katlego-maureen-ngwenya-2ba19a356"
-               target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <p>
+                Thank you for visiting my portfolio.
+                Feel free to connect with me through my social platforms.
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://instagram.com/journal_of_km"
+                   target="_blank" rel="noopener noreferrer">
+                    Instagram
+                </a>
+
+                <a href="https://github.com/Maureen-Ngwenya-19"
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="https://linkedin.com/in/katlego-maureen-ngwenya-2ba19a356"
+                   target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 Katlego Ngwenya. All Rights Reserved.
+            </p>
+
         </div>
+
     </footer>
 
 </body>
